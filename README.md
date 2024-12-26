@@ -1,7 +1,7 @@
 # Jean Carrasco (jeancarrascodv)
-Hey, I'm Ahmed an Experienced Web and Mobile Developer, with a track record of 5+ years in the industry. Proficient in React, React Native, Redux, NextJS, Typescript, JavaScript, and Firebase, I have successfully collaborated with various NFT, Blockchain, Realstate companies, and more, of over 350 satisfied clients.
+For years, I optimized industrial processes as an engineer. Now, I'm applying that problem-solving mindset to create efficient and scalable web and mobile solutions. I'm currently finalizing my Software Engineering studies at a university in Utah, and I'm proficient in a wide range of technologies, including React, Next.js, TypeScript, JavaScript, Java, Maven, Rust, AWS, and various databases.
 
-Let's connect to explore how my expertise can help your ventures thrive.
+Let's connect and explore how my unique blend of skills can propel your ventures forward.
 
 ## Skills
 ![My Skills](https://skillicons.dev/icons?i=react,nextjs,firebase,nodejs,apollo,graphql,mongodb,express,js,ts,redux,sass,flutter,bootstrap,materialui,netlify,css,html)
