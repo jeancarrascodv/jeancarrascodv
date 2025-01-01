@@ -4,7 +4,7 @@ For years, I optimized industrial processes as an engineer. Now, I'm applying th
 Let's connect and explore how my unique blend of skills can propel your ventures forward.
 
 ## Skills
-![My Skills](https://skillicons.dev/icons?i=react,nextjs,nodejs,java,maven,js,ts,python,aws,docker,rust,css,HTML,mysql)
+![My Skills](https://skillicons.dev/icons?i=react,nextjs,nodejs,java,maven,js,ts,python,aws,docker,rust,css,htmL,mysql)
 
 
 ## Get-in Touch
