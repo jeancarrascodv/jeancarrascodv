@@ -22,18 +22,18 @@
 
 ---
 
-### 👋 About me
+### About me
 
 I'm an **industrial and software engineer turned founder**. I spent years running warehouses and leading teams of up to 60 people, then moved that operations mindset into software. Today I build **AI agents, lead-generation pipelines, and scalable cloud systems**, and I founded **QueryBay** to productize AI automation for other companies.
 
-- 🚀 Building QueryBay: an AI automation platform for outreach and customer support
-- 🤖 Focused on AI agents, RAG, and "AI clones" that talk like you
-- 🛠️ Comfortable across the stack: TypeScript and Python on the front, Rust and Linux infra underneath
-- 🌎 Operating bilingually across the US and LATAM (Spanish, English, Portuguese)
+- Building QueryBay: an AI automation platform for outreach and customer support
+- Focused on AI agents, RAG, and "AI clones" that talk like you
+- Comfortable across the stack: TypeScript and Python on the front, Rust and Linux infra underneath
+- Operating bilingually across the US and LATAM (Spanish, English, Portuguese)
 
 ---
 
-### 🧠 Tech stack
+### Tech stack
 
 **AI & Automation**  
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
@@ -66,7 +66,7 @@ I'm an **industrial and software engineer turned founder**. I spent years runnin
 
 ---
 
-### 🛠️ Featured projects
+### Featured projects
 
 | Project | What it does |
 | --- | --- |
@@ -77,7 +77,7 @@ I'm an **industrial and software engineer turned founder**. I spent years runnin
 
 ---
 
-### 📊 GitHub stats
+### GitHub stats
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=jeancarrascodv&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true" alt="GitHub stats"/>
