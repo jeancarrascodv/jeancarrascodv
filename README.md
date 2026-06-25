@@ -10,7 +10,7 @@
   <a href="https://www.jeancarrasco.com/en"><img src="https://img.shields.io/badge/Portfolio-jeancarrasco.com-0A66C2?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
   <a href="https://www.linkedin.com/in/jean-carrasco/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://orcid.org/0009-0009-4319-2106"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"/></a>
-  <img src="https://komarev.com/ghpvc/?username=jeancarrascodv&style=for-the-badge&color=0A66C2&label=Profile+views" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=jeancarrascodv&style=for-the-badge&color=0A66C2&label=Profile+views&base=40" alt="Profile views"/>
 </p>
 
 <p align="center">
