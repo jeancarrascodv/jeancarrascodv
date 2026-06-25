@@ -88,10 +88,6 @@ I'm an **industrial and software engineer turned founder**. I spent years runnin
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=jeancarrascodv&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=jeancarrascodv&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" alt="Trophies"/>
-</p>
-
 ---
 
 <p align="center">
