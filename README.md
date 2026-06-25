@@ -80,8 +80,8 @@ I'm an **industrial and software engineer turned founder**. I spent years runnin
 ### GitHub stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=jeancarrascodv&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true" alt="GitHub stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeancarrascodv&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Top languages"/>
+  <img height="165" src="https://github-readme-stats-one-beta-48.vercel.app/api?username=jeancarrascodv&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true" alt="GitHub stats"/>
+  <img height="165" src="https://github-readme-stats-one-beta-48.vercel.app/api/top-langs/?username=jeancarrascodv&layout=compact&langs_count=8&count_private=true&theme=tokyonight&hide_border=true" alt="Top languages"/>
 </p>
 
 <p align="center">
