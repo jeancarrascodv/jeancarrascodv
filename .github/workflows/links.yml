@@ -4,13 +4,13 @@
 # opens an issue when one stops answering.
 name: links
 
+# Schedule and manual only, no push trigger: the README points at SVGs that
+# the snake and metrics workflows generate on that same push, so running here
+# would check them before they exist and report four 404s that are not real.
 on:
   schedule:
     - cron: "0 7 * * 1"
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths: ["README.md", ".github/workflows/links.yml"]
 
 permissions:
   contents: read
