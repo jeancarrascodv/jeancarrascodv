@@ -1,0 +1,51 @@
+# Renders the detailed metrics card (languages, activity, calendar) twice,
+# once per color scheme, and commits both to metrics/. The README picks the
+# right one with <picture>, so the deep-dive section follows the reader's
+# GitHub theme.
+#
+# With the default GITHUB_TOKEN this covers public activity. Add a classic
+# PAT with `repo` scope as the METRICS_TOKEN secret to include private repos,
+# which is what the stats cards at the top already count.
+name: metrics
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: metrics
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    strategy:
+      # Sequential on purpose: both jobs commit to main, and in parallel the
+      # second push would be rejected as non-fast-forward.
+      max-parallel: 1
+      matrix:
+        include:
+          - theme: dark
+            filename: metrics/metrics.dark.svg
+          - theme: light
+            filename: metrics/metrics.light.svg
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN || github.token }}
+          user: jeancarrascodv
+          filename: ${{ matrix.filename }}
+          config_timezone: America/Lima
+          config_theme: ${{ matrix.theme }}
+          base: header, activity, community, repositories, metadata
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_colors: github
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
