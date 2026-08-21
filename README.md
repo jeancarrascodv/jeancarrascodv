@@ -2,7 +2,10 @@
 
 <p align="center">
   <a href="https://www.jeancarrasco.com/en">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=0A66C2&center=true&vCenter=true&width=600&lines=Founder+%26+CEO+at+QueryBay;I+build+AI+automation+that+scales;AI+Agents+%C2%B7+Lead+Gen+%C2%B7+Cloud+Systems" alt="typing banner"/>
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=600&lines=Founder+%26+CEO+at+QueryBay;I+build+AI+automation+that+scales;AI+Agents+%C2%B7+Lead+Gen+%C2%B7+Cloud+Systems"/>
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=0A66C2&center=true&vCenter=true&width=600&lines=Founder+%26+CEO+at+QueryBay;I+build+AI+automation+that+scales;AI+Agents+%C2%B7+Lead+Gen+%C2%B7+Cloud+Systems" alt="Founder and CEO at QueryBay. I build AI automation that scales."/>
+    </picture>
   </a>
 </p>
 
@@ -20,6 +23,9 @@
   <img src="https://img.shields.io/badge/3-Languages_(ES_/_EN_/_PT)-111827?style=flat-square" alt="3 languages"/>
 </p>
 
+> [!NOTE]
+> Currently building **QueryBay**, an AI automation platform for outreach and customer support.
+
 ---
 
 ### About me
@@ -33,29 +39,84 @@ I'm an **industrial and software engineer turned founder**. I spent years runnin
 
 ---
 
+### How the pieces fit together
+
+```mermaid
+flowchart LR
+    subgraph SOURCES["Lead sources"]
+        A1["Prospect data"]
+        A2["Inbound conversations"]
+    end
+
+    subgraph AGENTS["AI layer"]
+        B1["AI agents"]
+        B2["RAG memory"]
+        B3["AI clones that talk like you"]
+    end
+
+    subgraph DELIVERY["Delivery"]
+        C1["Outreach pipelines"]
+        C2["Customer support"]
+    end
+
+    subgraph INFRA["Cloud systems"]
+        D1["TypeScript / Python"]
+        D2["Rust workers"]
+        D3["Docker on Linux"]
+    end
+
+    A1 --> B1
+    A2 --> B1
+    B2 --- B1
+    B3 --- B1
+    B1 --> C1
+    B1 --> C2
+    INFRA -.runs.-> AGENTS
+```
+
+---
+
 ### Tech stack
 
-**AI & Automation**  
+<details open>
+<summary><b>AI &amp; Automation</b></summary>
+<br/>
+
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![Anthropic](https://img.shields.io/badge/Anthropic-191919?style=flat-square&logo=anthropic&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
 ![LangChain](https://img.shields.io/badge/RAG_%26_Agents-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
 
-**Languages**  
+</details>
+
+<details open>
+<summary><b>Languages</b></summary>
+<br/>
+
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 
-**Frameworks & Frontend**  
+</details>
+
+<details>
+<summary><b>Frameworks &amp; Frontend</b></summary>
+<br/>
+
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
-**Data & Cloud Infra**  
+</details>
+
+<details>
+<summary><b>Data &amp; Cloud Infra</b></summary>
+<br/>
+
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
@@ -63,6 +124,8 @@ I'm an **industrial and software engineer turned founder**. I spent years runnin
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+
+</details>
 
 ---
 
@@ -80,13 +143,47 @@ I'm an **industrial and software engineer turned founder**. I spent years runnin
 ### GitHub stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats-one-beta-48.vercel.app/api?username=jeancarrascodv&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true" alt="GitHub stats"/>
-  <img height="165" src="https://github-readme-stats-one-beta-48.vercel.app/api/top-langs/?username=jeancarrascodv&layout=compact&langs_count=8&count_private=true&theme=tokyonight&hide_border=true" alt="Top languages"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-one-beta-48.vercel.app/api?username=jeancarrascodv&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=00000000"/>
+    <img height="165" src="https://github-readme-stats-one-beta-48.vercel.app/api?username=jeancarrascodv&show_icons=true&include_all_commits=true&count_private=true&theme=default&hide_border=true&bg_color=00000000" alt="GitHub stats"/>
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-one-beta-48.vercel.app/api/top-langs/?username=jeancarrascodv&layout=compact&langs_count=8&count_private=true&theme=tokyonight&hide_border=true&bg_color=00000000"/>
+    <img height="165" src="https://github-readme-stats-one-beta-48.vercel.app/api/top-langs/?username=jeancarrascodv&layout=compact&langs_count=8&count_private=true&theme=default&hide_border=true&bg_color=00000000" alt="Top languages"/>
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jeancarrascodv&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=jeancarrascodv&theme=tokyonight&hide_border=true&background=00000000"/>
+    <img src="https://streak-stats.demolab.com?user=jeancarrascodv&theme=default&hide_border=true&background=00000000" alt="GitHub streak"/>
+  </picture>
 </p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=jeancarrascodv&hide_border=true&bg_color=00000000&color=c9d1d9&title_color=58a6ff&line=58a6ff&point=58a6ff&area=true&area_color=58a6ff"/>
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=jeancarrascodv&hide_border=true&bg_color=00000000&color=24292f&title_color=0a66c2&line=0a66c2&point=0a66c2&area=true&area_color=0a66c2" alt="Contribution activity over the last year"/>
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jeancarrascodv/jeancarrascodv/output/snake-dark.svg"/>
+    <img src="https://raw.githubusercontent.com/jeancarrascodv/jeancarrascodv/output/snake.svg" alt="Snake eating my contribution graph"/>
+  </picture>
+</p>
+
+<details>
+<summary><b>Deep dive: languages, activity and habits</b></summary>
+<br/>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jeancarrascodv/jeancarrascodv/main/metrics/metrics.dark.svg"/>
+    <img src="https://raw.githubusercontent.com/jeancarrascodv/jeancarrascodv/main/metrics/metrics.light.svg" alt="Detailed GitHub metrics"/>
+  </picture>
+</p>
+</details>
 
 ---
 
